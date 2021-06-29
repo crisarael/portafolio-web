@@ -28,9 +28,9 @@
 
 
 .curriculum{
-     margin-top: -332px;
-     width: 250px;
-     height: 100px;
+     margin-top: -60px;
+     width: 145px;
+     height: 70px;
      -moz-border-radius: 0 50% / 0 100%;
      -webkit-border-radius: 0 50% / 0 100%;
      border-radius: 0 50% / 0 100%;
@@ -38,10 +38,39 @@
      border: 3px solid #555;
 }
 
+.proyectos{
+
+background-color: red;
+  height: 20px;
+  width: 80px;
+
+  margin-top: -333px;
+  margin-left: 850px;
+  
+}
+
+.certificaciones{
+margin-top: -20px;
+margin-left: 930px;
+
+background-color: yellow;
+  height: 20px;
+  width: 120px;
+  
+}
+
+.cursos{
+ margin-top: -20px;
+ margin-left: 1050px;
+background-color: green;
+  height: 60px;
+  width: 120px;
+}
+
 
 
 .descargar-cv{
-  margin-top: -800px;
+  margin-top: -100px;
   margin-left: 50px;
 }
 
