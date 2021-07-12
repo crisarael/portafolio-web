@@ -9,16 +9,17 @@ html{
 }
 
 .main-header{
+  position: fixed;
   width: 100%;
   height: 7rem;
-  background-color: grey;
-font-size: 2.7rem;
+  font-size: 2.7rem;
+  box-shadow: 0 0.4rem 0.5rem #e5e5e5;
 
 }
 
 .main-nav {
-    list-style: none;
-
+  list-style: none;
+  margin-left: 60rem;
 
 }
 
@@ -28,18 +29,18 @@ font-size: 2.7rem;
   margin-top: 2rem;
   padding-left:5rem;
 }
+
 .main-nav a{
-  color: blue;
+  color: black;
   text-decoration: none;
   padding: 0.5rem;
-  border-radius: 1.3rem;
-  background-color: #13a4a4;
+
 }
 
 .main{
   width: 100%;
-  height: 70rem;
-  background-color: cyan;
+  height: 100rem;
+
 }
 
 .main-footer{
