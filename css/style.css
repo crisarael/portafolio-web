@@ -1,78 +1,53 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
 .main-header{
+  width: 100%;
+  height: 7rem;
+  background-color: grey;
+font-size: 2.7rem;
+
+}
+
+.main-nav {
+    list-style: none;
+
+
+}
+
+.main-nav li{
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 2rem;
+  padding-left:5rem;
+}
+.main-nav a{
+  color: blue;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 1.3rem;
+  background-color: #13a4a4;
+}
+
+.main{
+  width: 100%;
+  height: 70rem;
   background-color: cyan;
-  background-repeat:no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  font-family: 'Dosis', sans-serif;
-  position: relative;
-}
-.main-nav{
-  
-  display: flex;
-  background-color: red;
 }
 
-
-.foto {
-
- margin-top: -10px;
- margin-left: 510px;
-      width: 340px;
-     height: 340px;
-     -moz-border-radius: 50%;
-     -webkit-border-radius: 50%;
-     border-radius: 50%;
+.main-footer{
+  width: 100%;
+  height: 6rem;
+  background-color:black;
 }
 
-
-
-.curriculum{
-     margin-top: -60px;
-     width: 145px;
-     height: 70px;
-     -moz-border-radius: 0 50% / 0 100%;
-     -webkit-border-radius: 0 50% / 0 100%;
-     border-radius: 0 50% / 0 100%;
-     background: #5cb85c;
-     border: 3px solid #555;
-}
-
-.proyectos{
-
-background-color: red;
-  height: 20px;
-  width: 80px;
-
-  margin-top: -333px;
-  margin-left: 850px;
-  
-}
-
-.certificaciones{
-margin-top: -20px;
-margin-left: 930px;
-
-background-color: yellow;
-  height: 20px;
-  width: 120px;
-  
-}
-
-.cursos{
- margin-top: -20px;
- margin-left: 1050px;
-background-color: green;
-  height: 60px;
-  width: 120px;
-}
-
-
-
-.descargar-cv{
-  margin-top: -100px;
-  margin-left: 50px;
-}
 
 
 
