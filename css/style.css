@@ -47,6 +47,8 @@ background: #6F9DDF;
 transition: width .3s;
 }
 
+
+
 .main-nav a:hover::after{
   width: 100%;
   transition: width;
@@ -75,11 +77,29 @@ transition: width .3s;
 .figure-cristo{
   width: 30rem;
 }
-
-
-
 .descripcion{
   margin-left: 30rem;
   margin-top: -25rem;
- font-size: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.contenedor-descarga{
+  width: 16rem;
+  height: 4rem;
+  margin-left: 5.5rem;
+  margin-top: -16rem;
+  background-color: #6F9DDF;
+  border-radius: 2rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.link-descarga{
+  font-size: 2rem;
+  color:black;
+  text-decoration: none;
+}
+
+.contenedor-descarga a:hover{
+ color: white;
 }
