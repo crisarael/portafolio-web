@@ -82,7 +82,8 @@ transition: width .3s;
   height: 4rem;
   margin-left: 5rem;
   margin-top: -14rem;
-  background-color: #67A5EC;
+  
+  border: 2px solid #67A5EC;
   border-radius: 2rem;
   padding-top: 1.5rem;
   padding-bottom: 4rem;
@@ -90,7 +91,7 @@ transition: width .3s;
 .contenedor-descarga a{
   margin-left: 2.2rem;
   font-size: 2rem;
-  color:black;
+  color:#67A5EC;
   text-decoration: none;
 }
 .contenedor-descarga a:hover{
@@ -101,4 +102,8 @@ transition: width .3s;
   margin-bottom: 1rem;
   font-size: 4rem;
   color:#67A5EC;
+}
+
+.main-footer{
+  opacity: 0.5;
 }
