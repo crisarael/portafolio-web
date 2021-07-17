@@ -92,7 +92,7 @@ transition: width .3s;
 .contenedor-descarga a{
   margin-left: 2.2rem;
   font-size: 2rem;
-  color:#8D90A5;
+  color:black;
   text-decoration: none;
 }
 .contenedor-descarga a:hover{
