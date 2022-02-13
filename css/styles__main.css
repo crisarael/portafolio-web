@@ -1,0 +1,35 @@
+.skills{
+    margin-top: 150px;
+    width: 100%;
+    height: 110vh;
+}
+.skills p{
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    color: #161722;
+}
+.skills__cards{
+    margin-top: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.skills__cards div{
+    width: 350px;
+    height: 350px;
+    background-color: #FFF5EB;
+    border-bottom: #FFD2A4 solid 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    object-fit: contain;
+}
+.skills__cards div img{
+   width: 50%;
+   height: 50%;
+}
