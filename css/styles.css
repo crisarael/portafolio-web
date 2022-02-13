@@ -108,9 +108,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-
 }
-
 .skills__cards div{
     width: 350px;
     height: 350px;
@@ -122,10 +120,7 @@
     align-items: center;
     gap: 40px;
     object-fit: contain;
-    
-   
 }
-
 .skills__cards div img{
    width: 50%;
    height: 50%;
